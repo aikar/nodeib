@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+require('nodeib')
+NodeIB_Module_Manager.getInstance().initModule()
