@@ -1,12 +1,12 @@
 {
   "author": "Aikar <aikar@aikar.co> (http://aikar.co)",
-  "name": "raKia",
-  "description": "raKia IRC bot",
+  "name": "nodeib",
+  "description": "NodeJS IRC bot",
   "version": "0.0.1",
   "homepage": "http://nodeib.com",
   "repository": {
     "type": "git",
-    "url": "git:rakia"
+    "url": "github.com:aikar/nodeib"
   },
   "main": "lib/nodeib.js",
   "scripts": {
