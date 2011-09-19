@@ -19,5 +19,5 @@
 // THE SOFTWARE.
 
 require('traceur');
-require('autoloader')(__dirname + '/nodeib');
+require('autoloader')(__dirname + '/lib');
 global.nodeib = module.exports = NodeIB.getInstance();

@@ -8,7 +8,7 @@
     "type": "git",
     "url": "github.com:aikar/nodeib"
   },
-  "main": "lib/nodeib.js",
+  "main": "nodeib.js",
   "scripts": {
     "test": "node_modules/.bin/runtest"
   },
