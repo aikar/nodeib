@@ -1,0 +1,6 @@
+{
+    "name": "foo",
+    "author":"Aikar",
+    "version": "0.0.1",
+    "main": "lib/Foo/Foo.js"
+}
