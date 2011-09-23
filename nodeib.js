@@ -18,6 +18,5 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-require('traceur');
-require('autoloader')(__dirname + '/lib');
-global.nodeib = module.exports = NodeIB.getInstance();
+require('nope').autoload(__dirname + '/lib');
+global.nodeib = module.exports = new NodeIB();

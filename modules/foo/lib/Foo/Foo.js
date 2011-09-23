@@ -1,9 +1,10 @@
-class Foo : NodeIB_Module_Base {
-  new() {
-    
-    console.log("Module Init")
-    new Foo_Bar();
+Singleton({
+  isa: NodeIB.Module.Base,
+  methods: {
+    initialize: function () {
+      console.log("Foo: Module Init")
+      new Foo.Bar();
+      this.onPM("Admiral Ackbar", "ITS A TRAP")
+    }
   }
-}
-module.exports = Foo
-
+});

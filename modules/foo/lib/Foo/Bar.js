@@ -1,6 +1,7 @@
-class Foo_Bar {
-  new() {
-    console.log("Foo_Bar init")
+Class('Foo.Bar', {
+  methods: {
+    initialize: function () {
+      console.log("Foo.Bar init")
+    }
   }
-}
-module.exports = Foo_Bar
+});
